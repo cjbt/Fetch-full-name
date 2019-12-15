@@ -4,6 +4,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 
 const firstnameRouter = require('./resources/firstname/firstnameRouter');
+const middlenameRouter = require('./resources/middlename/middlenameRouter');
 
 const server = express();
 
@@ -15,6 +16,7 @@ server.use(cors());
 server.use(helmet());
 
 server.use('/firstname', firstnameRouter);
+server.use('/middlename', middlenameRouter);
 
 // *** TEST ENDPOINT
 
