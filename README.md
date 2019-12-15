@@ -24,21 +24,22 @@ npm start
 ## Server endpoints
 ### url
 `http://localhost:8000`
-### firstname
+
+### getAFirstName
 `/firstname   [GET] 200`
 ```js
 {
   firstname: "Jane"
 }
 ```
-### middlename
+### getAMiddleName
 `/middlename   [GET] 200`
 ```js
 {
   middlename: "Smith"
 }
 ```
-### lastname
+### getALastname
 `/lastname   [GET] 200`
 ```js
 {
