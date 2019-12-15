@@ -23,7 +23,6 @@ const FullName = () => {
     }
   };
 
-  console.log(firstname);
   return (
     <div>
       <h1>
