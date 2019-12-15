@@ -5,6 +5,7 @@ const helmet = require('helmet');
 
 const firstnameRouter = require('./resources/firstname/firstnameRouter');
 const middlenameRouter = require('./resources/middlename/middlenameRouter');
+const lastnameRouter = require('./resources/lastname/lastnameRouter');
 
 const server = express();
 
@@ -17,6 +18,7 @@ server.use(helmet());
 
 server.use('/firstname', firstnameRouter);
 server.use('/middlename', middlenameRouter);
+server.use('/lastname', lastnameRouter);
 
 // *** TEST ENDPOINT
 
