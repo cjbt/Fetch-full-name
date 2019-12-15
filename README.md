@@ -15,6 +15,8 @@ npm run server
 
 ### client
 ```
+cd client
+
 npm install
 npm start
 ```
