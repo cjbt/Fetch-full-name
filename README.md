@@ -19,6 +19,31 @@ npm install
 npm start
 ```
 
+## Server endpoints
+### url
+`http://localhost:8000`
+### firstname
+`/firstname   [GET] 200`
+```js
+{
+  firstname: "Jane"
+}
+```
+### middlename
+`/middlename   [GET] 200`
+```js
+{
+  middlename: "Smith"
+}
+```
+### lastename
+`/lastname   [GET] 200`
+```js
+{
+  lastname: "Doe"
+}
+```
+
 ## Test
 ### testing local server
 
