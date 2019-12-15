@@ -1,7 +1,7 @@
 
 # Fetch Fullname
 
-This is a Full stack app that fetches full name in order. This project uses Node for the backend using sqlite3 for local database instance.
+This is a Full stack app that fetches full name in order. This project uses Node.js/express.js for the backend using sqlite3 for local database instance and React.js on the front end.
 
 ## Local development
 
@@ -36,7 +36,7 @@ npm start
   middlename: "Smith"
 }
 ```
-### lastename
+### lastname
 `/lastname   [GET] 200`
 ```js
 {
