@@ -1,7 +1,12 @@
 import React from 'react';
+import FullName from './components/FullName.jsx';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <FullName />
+    </>
+  );
 }
 
 export default App;
